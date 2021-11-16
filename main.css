@@ -1,0 +1,200 @@
+.header{
+	width: 100%;
+	margin-left: 20px;
+	margin-right: 0;
+	height: 70px;
+	line-height: 70px;
+	background-color: rgba(0,0,0,0);
+	position:fixed;
+	top:0;
+	z-index:999;
+}
+
+.header-folio
+{
+	color:white;
+	font-family:'arial';
+}
+
+.header .header-logo
+{
+	color:white;
+	font-family:'arial';
+	float:left;
+	margin-left:30px;
+}
+.header .header-menu
+{
+	float: right;
+	margin-right: 30px;
+	
+}
+.header .header-menu a {
+	margin-right:15px;
+	color: red;
+}
+
+.header .header-menu a:hover {
+	color:grey;
+	
+
+}
+
+.banner
+{
+	margin-top:-30px;
+}
+
+.banner .banner-image
+{
+	position:relative;
+}
+
+.banner .banner-content {
+	position:absolute;
+	width:100%;
+	text-align:center;
+	top:30%;
+}
+
+.banner .banner-content h1,
+.banner .banner-content h2 {
+	color:white;
+}
+
+.about .about-single-element .icon
+{
+	font-size: 60px;
+	text-align:center;
+	
+}
+
+.about .about-single-element
+{
+	text-align:center;
+}
+.about .about-single-element p {
+	weight : 33%;
+	
+text-align:left;
+margin-top:50px;
+}
+
+.heading-site
+{
+	text-align:center;
+	font-family: 'arial';
+}
+
+.ok
+{
+	font-size:23px;
+	text-align:center;	
+}
+
+.okok
+{
+	font-size:23px;
+	text-align:center;	
+	background-color:white;
+}
+
+.cool p
+{	font-size:23px;
+	text-align:center;
+	color:white;
+}
+
+
+body
+{
+	background-color:grey;
+	font-family:arial;
+}
+
+.color
+{
+	background-color:white;
+}
+
+.button {
+         background-color: blue;
+         border: none;
+         color: white;
+         text-align: center;
+         text-decoration: none;
+         display: inline-block;
+         font-size: 20px;
+         margin: 4px 2px;
+         cursor: pointer;
+   }
+
+
+.fin ul li a 
+{
+	text-align : center;
+	color:black;
+}
+
+.footer .footer-informations .fin .ok  ul li::before
+{
+	font-family:fontAwesome;
+	font-size:12px;
+
+}
+
+.footer .footer-informations .fin .ok  ul li:nth-child(1)::before
+{
+	content:'\f081';
+	color: red;
+	border-bottom:4px solid#1da1f2;
+}
+
+.fin 
+{
+	background-color:white;
+	color : black;
+}
+
+
+.autre p
+{
+	color:black:
+}
+
+.autre table i
+{
+	font-size:40px;
+	color:white;
+}
+.autre a
+{
+	arial:20px;
+	color:purple;
+	text-decoration:none;
+}
+
+.autre a:hover 
+{
+	font-size:22px;
+	animation:ok 1.5s;
+}
+
+
+
+@keyframes ok {
+	
+	0% {
+		transform:translateX(100);
+		opacity:0;
+	}
+	100% {
+		opacity:2;
+	}
+}
+
+.ok
+{
+	font-family:arial;
+	color:black;
+}
